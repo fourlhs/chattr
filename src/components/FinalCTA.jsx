@@ -11,7 +11,7 @@ const FinalCTA = () => {
               Ready to Get Your Time Back?
             </h2>
             <p className="text-xl text-primary-100 leading-relaxed max-w-3xl mx-auto">
-              Join hundreds of small business owners who use Chattr to work smarter, not harder.
+              Join hundreds of small business owners who use artificial intelligence to work smarter, not harder.
             </p>
           </div>
 
