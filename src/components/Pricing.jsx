@@ -4,9 +4,9 @@ const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false)
 
   const pricing = {
-    basic: { monthly: 49, yearly: 500, setup: 150, saveLabel: 'Save ~15% per year' },
-    pro: { monthly: 69, yearly: 700, setup: 250, saveLabel: 'Save ~15% per year' },
-    premium: { monthly: 99, yearly: 1000, setup: 400, saveLabel: 'Save ~15% per year' },
+    basic: { monthly: 119, yearly: 1250, setup: 250, saveLabel: 'Save ~15% per year' },
+    pro: { monthly: 199, yearly: 2000, setup: 350, saveLabel: 'Save ~20% per year' },
+    premium: { monthly: 399, yearly: 4000, setup: 500, saveLabel: 'Save ~20% per year' },
   }
 
   const formatCurrency = (value) => `€${value}`
