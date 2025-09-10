@@ -30,7 +30,7 @@ const Contact = () => {
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Email</h3>
-              <a href="mailto:chattrinfo@gmail.com" className="text-primary-600 hover:text-primary-700 font-medium">chattrinfo@gmail.com</a>
+              <a href="mailto:contact@chatt-r.com" className="text-primary-600 hover:text-primary-700 font-medium">contact@chatt-r.com</a>
             </div>
 
             <div className="card text-center">
@@ -40,7 +40,7 @@ const Contact = () => {
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Actions</h3>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
                 <a href="tel:00306941514642" className="btn-secondary">Call Now</a>
-                <a href="mailto:chattrinfo@gmail.com" className="btn-primary">Email Us</a>
+                <a href="mailto:contact@chatt-r.com" className="btn-primary">Email Us</a>
               </div>
             </div>
           </div>
