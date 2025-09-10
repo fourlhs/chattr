@@ -10,12 +10,12 @@ const Pricing = () => {
   }
 
   const formatCurrency = (value) => `€${value}`
-
+{/*
   return (
     <section id="pricing" className="section-padding bg-gray-50">
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
-        <div className="text-center mb-10 md:mb-16">
+ {/*       <div className="text-center mb-10 md:mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Simple, Affordable, No Surprises
           </h2>
@@ -26,7 +26,7 @@ const Pricing = () => {
         </div>
 
         {/* Billing Toggle */}
-        <div className="flex justify-center mb-10">
+{/*        <div className="flex justify-center mb-10">
           <div className="relative bg-white shadow-soft border border-gray-200 rounded-full p-1 w-[280px] select-none" role="tablist" aria-label="Billing interval">
             <div
               className={`absolute top-1 bottom-1 w-[138px] rounded-full bg-gradient-to-r from-primary-500 to-teal-500 transition-transform duration-300 ${isYearly ? 'translate-x-[140px]' : 'translate-x-0'}`}
@@ -53,10 +53,10 @@ const Pricing = () => {
         </div>
 
         {/* Pricing Grid */}
-        <div className="max-w-7xl mx-auto">
+{/*        <div className="max-w-7xl mx-auto">
           <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4">
             {/* Basic */}
-            <div className="card flex flex-col">
+{/*            <div className="card flex flex-col">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900">Basic</h3>
                 <p className="text-gray-600 mt-1">Web-only chatbot</p>
@@ -88,7 +88,7 @@ const Pricing = () => {
             </div>
 
             {/* Pro - Highlighted */}
-            <div className="relative card flex flex-col border-2 border-primary-500 shadow-medium scale-105">
+{/*            <div className="relative card flex flex-col border-2 border-primary-500 shadow-medium scale-105">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
                 <span className="px-3 py-1 text-xs font-semibold text-white bg-gradient-to-r from-primary-500 to-teal-500 rounded-full shadow">Most Popular</span>
               </div>
@@ -123,7 +123,7 @@ const Pricing = () => {
             </div>
 
             {/* Premium */}
-            <div className="card flex flex-col">
+{/*            <div className="card flex flex-col">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900">Premium</h3>
                 <p className="text-gray-600 mt-1">Advanced automation + booking</p>
@@ -156,7 +156,7 @@ const Pricing = () => {
             </div>
 
             {/* Enterprise */}
-            <div className="card flex flex-col">
+{/*            <div className="card flex flex-col">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900">Enterprise</h3>
                 <p className="text-gray-600 mt-1">Custom chatbot</p>
@@ -173,7 +173,7 @@ const Pricing = () => {
         </div>
 
         {/* Trust Indicators */}
-        <div className="text-center mt-16">
+{/*        <div className="text-center mt-16">
           <p className="text-gray-500 mb-8">All plans include unlimited customization and easy cancellation anytime.</p>
           <div className="flex flex-wrap justify-center items-center space-x-8 text-gray-400">
             <div className="flex items-center space-x-2">
@@ -200,5 +200,6 @@ const Pricing = () => {
     </section>
   )
 }
-
+*/}
+}
 export default Pricing
