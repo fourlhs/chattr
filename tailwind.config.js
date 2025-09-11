@@ -9,6 +9,32 @@ export default {
       colors: {
         primary: {
           50: '#f0f9ff',
+          100: '#f6e0feff',
+          200: '#f0bafdff',
+          300: '#e77dfcff',
+          400: '#c238f8ff',
+          500: '#860ee9ff',
+          600: '#7202c7ff',
+          700: '#6203a1ff',
+          800: '#590785ff',
+          900: '#590c6eff',
+        },
+        teal: {
+          50: '#f0fdfa',
+          100: '#fbccf8ff',
+          200: '#f699f0ff',
+          300: '#ea5ee8ff',
+          400: '#d42dd1ff',
+          500: '#ad14b8ff',
+          600: '#940d8fff',
+          700: '#760f6aff',
+          800: '#5e1155ff',
+          900: '#4e134aff',
+        }
+      },
+      /*colors: {
+        primary: {
+          50: '#f0f9ff',
           100: '#e0f2fe',
           200: '#bae6fd',
           300: '#7dd3fc',
@@ -31,7 +57,7 @@ export default {
           800: '#115e59',
           900: '#134e4a',
         }
-      },
+      },*/
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },

@@ -35,7 +35,9 @@ const Contact = () => {
 
             <div className="card text-center">
               <div className="w-12 h-12 mx-auto mb-4 rounded-xl bg-gradient-to-r from-primary-500 to-teal-500 flex items-center justify-center text-white">
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7H7v10h10V7h-4z"/></svg>
+<svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+</svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Actions</h3>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
