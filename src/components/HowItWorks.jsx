@@ -56,13 +56,13 @@ const HowItWorks = () => {
               <div className="card text-center group hover:transform hover:scale-105 transition-all duration-300">
                 {/* Step Number */}
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
+                  <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold text-sm">
                     {step.number}
                   </div>
                 </div>
 
                 {/* Icon */}
-                <div className="w-16 h-16 bg-gradient-to-r from-primary-100 to-teal-100 rounded-2xl flex items-center justify-center text-primary-600 mx-auto mb-6 group-hover:shadow-lg transition-shadow">
+                <div className="w-16 h-16 bg-gradient-to-r from-primary-100 to-purple-100 rounded-2xl flex items-center justify-center text-primary-600 mx-auto mb-6 group-hover:shadow-lg transition-shadow">
                   {step.icon}
                 </div>
 
@@ -77,7 +77,7 @@ const HowItWorks = () => {
 
               {/* Connector Line */}
               {index < steps.length - 1 && (
-                <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-primary-200 to-teal-200 transform -translate-y-1/2"></div>
+                <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-0.5 bg-gradient-to-r from-primary-200 to-purple-200 transform -translate-y-1/2"></div>
               )}
             </div>
           ))}

@@ -19,7 +19,7 @@ export default {
           800: '#590785ff',
           900: '#590c6eff',
         },
-        teal: {
+        purple: {
           50: '#f0fdfa',
           100: '#fbccf8ff',
           200: '#f699f0ff',
@@ -30,10 +30,8 @@ export default {
           700: '#760f6aff',
           800: '#5e1155ff',
           900: '#4e134aff',
-        }
-      },
-      /*colors: {
-        primary: {
+        },
+        blue: {
           50: '#f0f9ff',
           100: '#e0f2fe',
           200: '#bae6fd',
@@ -57,7 +55,7 @@ export default {
           800: '#115e59',
           900: '#134e4a',
         }
-      },*/
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
       },

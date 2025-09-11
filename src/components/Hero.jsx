@@ -46,7 +46,7 @@ const Hero = () => {
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                 Your AI Assistant That{' '}
-                <span className="bg-gradient-to-r from-primary-500 to-teal-500 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-primary-500 to-purple-500 bg-clip-text text-transparent">
                   Never Sleeps
                 </span>
               </h1>
@@ -88,7 +88,7 @@ const Hero = () => {
               <div className="bg-white rounded-3xl shadow-soft p-6 max-w-md mx-auto">
                 {/* Header */}
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-teal-500 rounded-full flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full flex items-center justify-center">
                     <span className="text-white font-bold">C</span>
                   </div>
                   <div>
@@ -101,7 +101,7 @@ const Hero = () => {
                 <div className="space-y-4">
                   {/* Bot Message */}
                   <div className="flex space-x-3">
-                    <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-teal-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-white text-sm font-bold">C</span>
                     </div>
                     <div className="bg-gray-100 rounded-2xl rounded-tl-md px-4 py-3 max-w-xs">
@@ -113,7 +113,7 @@ const Hero = () => {
 
                   {/* User Message */}
                   <div className="flex justify-end space-x-3">
-                    <div className="bg-gradient-to-r from-primary-500 to-teal-500 rounded-2xl rounded-tr-md px-4 py-3 max-w-xs">
+                    <div className="bg-gradient-to-r from-primary-500 to-purple-500 rounded-2xl rounded-tr-md px-4 py-3 max-w-xs">
                       <p className="text-sm text-white">
                         What services do you offer?
                       </p>
@@ -122,7 +122,7 @@ const Hero = () => {
 
                   {/* Bot Response */}
                   <div className="flex space-x-3">
-                    <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-teal-500 rounded-full flex items-center justify-center flex-shrink-0">
+                    <div className="w-8 h-8 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
                       <span className="text-white text-sm font-bold">C</span>
                     </div>
                     <div className="bg-gray-100 rounded-2xl rounded-tl-md px-4 py-3 max-w-xs">
@@ -141,7 +141,7 @@ const Hero = () => {
                       <span className="animate-pulse text-primary-500">|</span>
                     </span>
                   </div>
-                  <button className="w-10 h-10 bg-gradient-to-r from-primary-500 to-teal-500 rounded-full flex items-center justify-center">
+                  <button className="w-10 h-10 bg-gradient-to-r from-primary-500 to-purple-500 rounded-full flex items-center justify-center">
                     <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
                     </svg>
@@ -151,8 +151,8 @@ const Hero = () => {
             </div>
 
             {/* Background Elements */}
-            <div className="absolute -top-4 -right-4 w-32 h-32 bg-gradient-to-r from-primary-100 to-teal-100 rounded-full opacity-50"></div>
-            <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-gradient-to-r from-teal-100 to-primary-100 rounded-full opacity-50"></div>
+            <div className="absolute -top-4 -right-4 w-32 h-32 bg-gradient-to-r from-primary-100 to-purple-100 rounded-full opacity-50"></div>
+            <div className="absolute -bottom-8 -left-8 w-24 h-24 bg-gradient-to-r from-purple-100 to-primary-100 rounded-full opacity-50"></div>
           </div>
         </div>
       </div>

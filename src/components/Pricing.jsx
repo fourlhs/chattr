@@ -29,7 +29,7 @@ const Pricing = () => {
 {/*        <div className="flex justify-center mb-10">
           <div className="relative bg-white shadow-soft border border-gray-200 rounded-full p-1 w-[280px] select-none" role="tablist" aria-label="Billing interval">
             <div
-              className={`absolute top-1 bottom-1 w-[138px] rounded-full bg-gradient-to-r from-primary-500 to-teal-500 transition-transform duration-300 ${isYearly ? 'translate-x-[140px]' : 'translate-x-0'}`}
+              className={`absolute top-1 bottom-1 w-[138px] rounded-full bg-gradient-to-r from-primary-500 to-purple-500 transition-transform duration-300 ${isYearly ? 'translate-x-[140px]' : 'translate-x-0'}`}
             />
             <button
               type="button"
@@ -90,7 +90,7 @@ const Pricing = () => {
             {/* Pro - Highlighted */}
 {/*            <div className="relative card flex flex-col border-2 border-primary-500 shadow-medium scale-105">
               <div className="absolute -top-3 left-1/2 -translate-x-1/2">
-                <span className="px-3 py-1 text-xs font-semibold text-white bg-gradient-to-r from-primary-500 to-teal-500 rounded-full shadow">Most Popular</span>
+                <span className="px-3 py-1 text-xs font-semibold text-white bg-gradient-to-r from-primary-500 to-purple-500 rounded-full shadow">Most Popular</span>
               </div>
               <div className="mb-6">
                 <h3 className="text-2xl font-bold text-gray-900">Pro</h3>

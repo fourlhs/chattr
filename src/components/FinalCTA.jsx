@@ -2,7 +2,7 @@ import React from 'react'
 
 const FinalCTA = () => {
   return (
-    <section className="section-padding bg-gradient-to-r from-primary-500 to-teal-500">
+    <section className="section-padding bg-gradient-to-r from-primary-500 to-purple-500">
       <div className="max-w-4xl mx-auto text-center">
         <div className="space-y-8">
           {/* Main Content */}
