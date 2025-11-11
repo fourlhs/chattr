@@ -19,9 +19,9 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
               <div className="space-y-1">
-                <a href="tel:6941514642" className="text-primary-600 hover:text-primary-700 font-medium">+30 694 151 4642</a>
+                <a href="tel:1234567890" className="text-primary-600 hover:text-primary-700 font-medium">+00 123 456 7890</a>
                 <div></div>
-                <a href="tel:6989744363" className="text-primary-600 hover:text-primary-700 font-medium">+30 698 974 4363</a>
+                <a href="tel:1234567890" className="text-primary-600 hover:text-primary-700 font-medium">+00 123 456 7890</a>
               </div>
             </div>
 
@@ -41,7 +41,7 @@ const Contact = () => {
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Quick Actions</h3>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                <a href="tel:00306941514642" className="btn-secondary">Call Now</a>
+                <a href="tel:00001234567890" className="btn-secondary">Call Now</a>
                 <a href="mailto:contact@chatt-r.com" className="btn-primary">Email Us</a>
               </div>
             </div>
